@@ -8,10 +8,11 @@ function AllPages({ allSelected, onAllPagesChange }) {
         <span>All Pages</span>
       </div>
       <div>
-        <input 
-          type="checkbox" 
+        <input
+          type="checkbox"
           checked={allSelected}
-          onChange={onAllPagesChange} 
+          onChange={onAllPagesChange}
+          className="checkbox"
         />
       </div>
     </div>

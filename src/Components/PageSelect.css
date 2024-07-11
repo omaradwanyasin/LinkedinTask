@@ -6,3 +6,6 @@
   margin: auto;
   padding: 10px 0;
 }
+.checkbox {
+  transform: scale(1.2);
+}

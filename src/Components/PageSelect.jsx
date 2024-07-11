@@ -14,6 +14,7 @@ function PageSelect({ pageSelections, onPageChange }) {
               type="checkbox"
               checked={pageSelections[index]}
               onChange={() => onPageChange(index)}
+              className="checkbox"
             />
           </div>
         </div>
